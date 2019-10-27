@@ -39,7 +39,7 @@ _Choices_:
 3. `<p>My favorite ice cream is {props.flavor}!</p>`
 4. `<p>My favorite ice cream is {this.flavor}!</p>`
 
-```
+```js
 <p>My favorite ice cream is {this.props.flavor}!</p>
 ```
 
