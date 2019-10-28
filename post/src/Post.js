@@ -4,6 +4,23 @@ import Authors from './Authors'
 
 
 class Post extends Component {
+  constructor(props){
+    super(props);
+
+    // initial state
+    this.state = {
+      body:this.props.body
+    };
+  }
+
+  changeBody = (e) =>{
+    console.log("button clicked");
+    const newBody = prompt("what should the new body be?")
+    this.setState({
+      body: newBody
+    });
+  }
+
   render(){
 
     const allComments = [
@@ -22,7 +39,8 @@ class Post extends Component {
       <div className="App">
         <h1>{this.props.title}</h1>
         <p>{allAuthors}</p>
-        <h3>{this.props.body}</h3>
+        <h3>{this.state.body}</h3>
+        <button onClick = {this.changeBody}>Edit Body</button>
         <h2>Comments:</h2>
         {allComments}
 
