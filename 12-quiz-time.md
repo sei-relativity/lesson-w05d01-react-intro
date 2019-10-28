@@ -26,7 +26,7 @@ _Choices_:
 ```
 PUT YOUR ANSWER HERE
 ```
-
+ Ingredients.js
 
 -----------------------------------
 
@@ -42,7 +42,7 @@ _Choices_:
 ```
 PUT YOUR ANSWER HERE
 ```
-
+ <p>My favorite ice cream is {this.props.flavor}!</p>
 
 -----------------------------------
 
@@ -67,7 +67,7 @@ _Choices_:
 ```
 PUT YOUR ANSWER HERE
 ```
-
+ Yes
 
 ----------------------------------
 
@@ -88,7 +88,7 @@ _Choices_:
 ```
 PUT YOUR ANSWER HERE
 ```
-
+ No
 
 ----------------------------------
 
@@ -114,7 +114,7 @@ _Choices_:
 ```
 PUT YOUR ANSWER HERE
 ```
-
+The ReactDOM.render method generates a virtual DOM node containing whatever the JSX that the Kangaroos component returns. React then reloads the entire webpage, changing only the element with an ID of root
 
 
 -----------------------------------
@@ -130,7 +130,7 @@ _Choices_:
 PUT YOUR ANSWER HERE
 ```
 
-
+True
 ----------------------------------
 
 _Prompt_:  What is React.js?
@@ -145,7 +145,7 @@ _Choices_:
 ```
 PUT YOUR ANSWER HERE
 ```
-
+All of the above
 
 -----------------------------------
 
@@ -184,7 +184,7 @@ _Choices_:
 PUT YOUR ANSWER HERE
 ```
 
-
+ The Store component call needs to end with />, not just >
 
 ----------------------------------
 
@@ -201,7 +201,7 @@ _Choices_:
 ```
 PUT YOUR ANSWER HERE
 ```
-
+reate-react-app jungle_maze
 
 ----------------------------------
 
@@ -237,7 +237,7 @@ _Choices_:
 ```
 PUT YOUR ANSWER HERE
 ```
-
+Yes
 
 ----------------------------------
 
@@ -256,3 +256,5 @@ Choices:
 ```
 PUT YOUR ANSWER HERE
 ```
+
+ At the top of the component class; you only need it if you are changing any initial configurations for that class.
