@@ -23,8 +23,9 @@ _Choices_:
 1. `Milkshake.js`
 2. `Ingredients.js`
 
-```
-PUT YOUR ANSWER HERE
+```js
+// ANSWER
+Milkshake.js
 ```
 
 
@@ -39,8 +40,9 @@ _Choices_:
 3. `<p>My favorite ice cream is {props.flavor}!</p>`
 4. `<p>My favorite ice cream is {this.flavor}!</p>`
 
-```
-PUT YOUR ANSWER HERE
+```js
+// ANSWER
+<p>My favorite ice cream is {this.props.flavor}!</p>
 ```
 
 
@@ -64,8 +66,9 @@ _Choices_:
 1. Yes
 2. No
 
-```
-PUT YOUR ANSWER HERE
+```js
+// ANSWER
+No
 ```
 
 
@@ -85,8 +88,9 @@ _Choices_:
 1. Yes
 2. No
 
-```
-PUT YOUR ANSWER HERE
+```js
+// ANSWER
+No
 ```
 
 
@@ -111,8 +115,9 @@ _Choices_:
 
 4. The `ReactDOM.render` method generates a new element with an ID of `root`, which it populates with the JSX returned from the `Kangaroos` component. React updates the virtual DOM to have this new element, which the browser sees to dynamically change the page with the new element on it.
 
-```
-PUT YOUR ANSWER HERE
+```js
+// ANSWER
+1
 ```
 
 
@@ -126,8 +131,9 @@ _Choices_:
 1. True
 2. False
 
-```
-PUT YOUR ANSWER HERE
+```js
+// ANSWER
+No
 ```
 
 
@@ -142,8 +148,9 @@ _Choices_:
 3. A library of independent, reusable pieces of user interface that you can call upon to add variability to your application.
 4. All of the above
 
-```
-PUT YOUR ANSWER HERE
+```js
+// ANSWER
+3
 ```
 
 
@@ -180,8 +187,9 @@ _Choices_:
 3. The `const groceryList` declaration needs to be inside the `render` method
 4. When passing the props into `Store`, the syntax is `this.groceryList.important` and `this.groceryList.spices`
 
-```
-PUT YOUR ANSWER HERE
+```js
+// ANSWER
+4
 ```
 
 
@@ -198,8 +206,9 @@ _Choices_:
 3. `create-react-app jungle_maze`
 4. `create-react-app index/jungle_maze.js`
 
-```
-PUT YOUR ANSWER HERE
+```js
+// ANSWER
+3
 ```
 
 
@@ -234,8 +243,9 @@ _Choices_:
 1. Yes
 2. No
 
-```
-PUT YOUR ANSWER HERE
+```js
+// ANSWER
+Yes
 ```
 
 
@@ -253,6 +263,7 @@ Choices:
 
 4. In the component class' `render()` method;  you only need it if you are changing any initial configurations for that class.
 
-```
-PUT YOUR ANSWER HERE
+```js
+// ANSWER
+1
 ```
