@@ -25,6 +25,7 @@ _Choices_:
 
 ```
 PUT YOUR ANSWER HERE
+`Milkshake.js`
 ```
 
 
@@ -41,6 +42,7 @@ _Choices_:
 
 ```
 PUT YOUR ANSWER HERE
+`<p>My favorite ice cream is {this.props.flavor}!</p>`
 ```
 
 
@@ -66,6 +68,7 @@ _Choices_:
 
 ```
 PUT YOUR ANSWER HERE
+No , must have <Div>
 ```
 
 
@@ -87,6 +90,7 @@ _Choices_:
 
 ```
 PUT YOUR ANSWER HERE
+Yes
 ```
 
 
@@ -113,6 +117,7 @@ _Choices_:
 
 ```
 PUT YOUR ANSWER HERE
+1. The `ReactDOM.render` method generates a virtual DOM node containing whatever content the `Kangaroos` component returns, and appends that to the element with an ID of `root`. Then, React compares the virtual DOM to the regular DOM and updates on the webpage only the elements that have changed.
 ```
 
 
@@ -128,6 +133,7 @@ _Choices_:
 
 ```
 PUT YOUR ANSWER HERE
+False
 ```
 
 
@@ -144,6 +150,7 @@ _Choices_:
 
 ```
 PUT YOUR ANSWER HERE
+1. A framework created by developers at Facebook. It is aimed at being the 'view' of your Javascript application. It focuses on creating a component-based architecture.
 ```
 
 
@@ -182,6 +189,7 @@ _Choices_:
 
 ```
 PUT YOUR ANSWER HERE
+1. The `Store` component call needs to end with `/>`, not just `>`
 ```
 
 
@@ -200,6 +208,7 @@ _Choices_:
 
 ```
 PUT YOUR ANSWER HERE
+3. `create-react-app jungle_maze`
 ```
 
 
@@ -236,6 +245,7 @@ _Choices_:
 
 ```
 PUT YOUR ANSWER HERE
+No
 ```
 
 
@@ -255,4 +265,5 @@ Choices:
 
 ```
 PUT YOUR ANSWER HERE
+2. At the top of the component class; you only need it if you are changing any initial configurations for that class.
 ```
