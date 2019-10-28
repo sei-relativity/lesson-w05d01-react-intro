@@ -26,7 +26,7 @@ _Choices_:
 ```
 PUT YOUR ANSWER HERE
 ```
-
+'milkshake.js'
 
 -----------------------------------
 
@@ -43,7 +43,7 @@ _Choices_:
 PUT YOUR ANSWER HERE
 ```
 
-
+1. `<p>My favorite ice cream is {this.props.flavor}!</p>`
 -----------------------------------
 
 _Prompt_:  Is this a valid Component declaration?
@@ -68,7 +68,7 @@ _Choices_:
 PUT YOUR ANSWER HERE
 ```
 
-
+no, should have a div or header 
 ----------------------------------
 
 _Prompt_:  Is this a valid way to, in a file called `Spices.js`, render the JSX that the `Cinnamon` component returns to the screen?
@@ -88,7 +88,7 @@ _Choices_:
 ```
 PUT YOUR ANSWER HERE
 ```
-
+no
 
 ----------------------------------
 
@@ -116,6 +116,7 @@ PUT YOUR ANSWER HERE
 ```
 
 
+2. The `ReactDOM.render` method generates a virtual DOM node containing whatever the JSX that the `Kangaroos` component returns. React then reloads the entire webpage, changing only the element with an ID of `root`.
 
 -----------------------------------
 
@@ -130,7 +131,7 @@ _Choices_:
 PUT YOUR ANSWER HERE
 ```
 
-
+TRUE
 ----------------------------------
 
 _Prompt_:  What is React.js?
@@ -145,7 +146,7 @@ _Choices_:
 ```
 PUT YOUR ANSWER HERE
 ```
-
+4. All of the above
 
 -----------------------------------
 
@@ -184,8 +185,8 @@ _Choices_:
 PUT YOUR ANSWER HERE
 ```
 
-
-
+1. The `Store` component call needs to end with `/>`, not just `>`
+3. The `const groceryList` declaration needs to be inside the `render` method
 ----------------------------------
 
 
@@ -201,7 +202,7 @@ _Choices_:
 ```
 PUT YOUR ANSWER HERE
 ```
-
+3. `create-react-app jungle_maze`
 
 ----------------------------------
 
@@ -238,7 +239,7 @@ _Choices_:
 PUT YOUR ANSWER HERE
 ```
 
-
+YES
 ----------------------------------
 
 _Prompt_: Where does `constructor()` go, and when do you need it?
@@ -256,3 +257,5 @@ Choices:
 ```
 PUT YOUR ANSWER HERE
 ```
+
+1. At the top of the component class; you always need it for accurate setup of that class.
