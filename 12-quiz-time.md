@@ -9,13 +9,10 @@
 
 ### Questions:
 
-_Prompt_:  You have a main component, `Milkshake.js`, which imports and will render UI from a component `Ingredients.js`. Which file does the below code go in?
+_Prompt_: You have a main component, `Milkshake.js`, which imports and will render UI from a component `Ingredients.js`. Which file does the below code go in?
 
 ```js
-ReactDOM.render(
-  <Ingredients />,
-  document.getElementById('root')
-);
+ReactDOM.render(<Ingredients />, document.getElementById("root"));
 ```
 
 _Choices_:
@@ -24,13 +21,12 @@ _Choices_:
 2. `Ingredients.js`
 
 ```
-PUT YOUR ANSWER HERE
+1. `Milkshake.js`
 ```
 
+---
 
------------------------------------
-
-_Prompt_:  A component is being passed a prop named `flavor`. What JSX would the component return in its `render` method to display the prop in a paragraph?
+_Prompt_: A component is being passed a prop named `flavor`. What JSX would the component return in its `render` method to display the prop in a paragraph?
 
 _Choices_:
 
@@ -40,13 +36,12 @@ _Choices_:
 4. `<p>My favorite ice cream is {this.flavor}!</p>`
 
 ```
-PUT YOUR ANSWER HERE
+1. `<p>My favorite ice cream is {this.props.flavor}!</p>`
 ```
 
+---
 
------------------------------------
-
-_Prompt_:  Is this a valid Component declaration?
+_Prompt_: Is this a valid Component declaration?
 
 ```js
   class Paintings extends Component {
@@ -65,13 +60,12 @@ _Choices_:
 2. No
 
 ```
-PUT YOUR ANSWER HERE
+2. No
 ```
 
+---
 
-----------------------------------
-
-_Prompt_:  Is this a valid way to, in a file called `Spices.js`, render the JSX that the `Cinnamon` component returns to the screen?
+_Prompt_: Is this a valid way to, in a file called `Spices.js`, render the JSX that the `Cinnamon` component returns to the screen?
 
 ```js
 ReactDOM.render(
@@ -86,19 +80,15 @@ _Choices_:
 2. No
 
 ```
-PUT YOUR ANSWER HERE
+1. Yes
 ```
 
-
-----------------------------------
+---
 
 _Prompt_: What, specifically, happens when this method is called?
 
 ```js
-ReactDOM.render(
-  <Kangaroos />,
-  document.getElementById('root')
-)
+ReactDOM.render(<Kangaroos />, document.getElementById("root"));
 ```
 
 _Choices_:
@@ -112,14 +102,12 @@ _Choices_:
 4. The `ReactDOM.render` method generates a new element with an ID of `root`, which it populates with the JSX returned from the `Kangaroos` component. React updates the virtual DOM to have this new element, which the browser sees to dynamically change the page with the new element on it.
 
 ```
-PUT YOUR ANSWER HERE
+4. The `ReactDOM.render` method generates a new element with an ID of `root`, which it populates with the JSX returned from the `Kangaroos` component. React updates the virtual DOM to have this new element, which the browser sees to dynamically change the page with the new element on it.
 ```
 
+---
 
-
------------------------------------
-
-_Prompt_:  If you have multiple components written in a single file, you can then have multiple default export statements at the bottom of that file - one for each component.
+_Prompt_: If you have multiple components written in a single file, you can then have multiple default export statements at the bottom of that file - one for each component.
 
 _Choices_:
 
@@ -127,13 +115,12 @@ _Choices_:
 2. False
 
 ```
-PUT YOUR ANSWER HERE
+2. False
 ```
 
+---
 
-----------------------------------
-
-_Prompt_:  What is React.js?
+_Prompt_: What is React.js?
 
 _Choices_:
 
@@ -143,13 +130,12 @@ _Choices_:
 4. All of the above
 
 ```
-PUT YOUR ANSWER HERE
+3. A library of independent, reusable pieces of user interface that you can call upon to add variability to your application.
 ```
 
+---
 
------------------------------------
-
-_Prompt_:  Take a look at the following React file. Choose the reason(s) it won't run properly.
+_Prompt_: Take a look at the following React file. Choose the reason(s) it won't run properly.
 
 ```js
 import React from 'react';
@@ -181,15 +167,12 @@ _Choices_:
 4. When passing the props into `Store`, the syntax is `this.groceryList.important` and `this.groceryList.spices`
 
 ```
-PUT YOUR ANSWER HERE
+1. The `Store` component call needs to end with `/>`, not just `>`
 ```
 
+---
 
-
-----------------------------------
-
-
-_Prompt_:  How could you use `create-react-app` to create a new app called `jungle_maze`?
+_Prompt_: How could you use `create-react-app` to create a new app called `jungle_maze`?
 
 _Choices_:
 
@@ -199,24 +182,23 @@ _Choices_:
 4. `create-react-app index/jungle_maze.js`
 
 ```
-PUT YOUR ANSWER HERE
+3. `create-react-app jungle_maze`
 ```
 
+---
 
-----------------------------------
-
-_Prompt_:  If I'm displaying multiple nested components, assuming the `Flowers` component is being passed all necessary props and the `Daisy` component is imported and written correctly, is this valid syntax?
+_Prompt_: If I'm displaying multiple nested components, assuming the `Flowers` component is being passed all necessary props and the `Daisy` component is imported and written correctly, is this valid syntax?
 
 ```js
-import React, { Component } from 'react';
-import Daisy from './Daisy.js';
+import React, { Component } from "react";
+import Daisy from "./Daisy.js";
 
 class Flowers extends Component {
   render() {
     let allDaisies = [
       <Daisy body={this.props.spring} />,
       <Daisy body={this.props.rabbits} />
-    ]
+    ];
 
     return (
       <div>
@@ -235,11 +217,10 @@ _Choices_:
 2. No
 
 ```
-PUT YOUR ANSWER HERE
+2. No
 ```
 
-
-----------------------------------
+---
 
 _Prompt_: Where does `constructor()` go, and when do you need it?
 
@@ -251,8 +232,8 @@ Choices:
 
 3. In the component class' `render()` method; you always need it for accurate setup of that class.
 
-4. In the component class' `render()` method;  you only need it if you are changing any initial configurations for that class.
+4. In the component class' `render()` method; you only need it if you are changing any initial configurations for that class.
 
 ```
-PUT YOUR ANSWER HERE
+2. At the top of the component class; you only need it if you are changing any initial configurations for that class.
 ```
