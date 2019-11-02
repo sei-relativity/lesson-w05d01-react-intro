@@ -1,5 +1,6 @@
 # ![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png)
 
+Abdullah Altamimi
 ## Quiz Time
 
 1. Fork and Clone this repo.
@@ -26,7 +27,7 @@ _Choices_:
 ```
 PUT YOUR ANSWER HERE
 ```
-
+1. `Milkshake.js`
 
 -----------------------------------
 
@@ -42,6 +43,7 @@ _Choices_:
 ```
 PUT YOUR ANSWER HERE
 ```
+1. `<p>My favorite ice cream is {this.props.flavor}!</p>`
 
 
 -----------------------------------
@@ -67,7 +69,7 @@ _Choices_:
 ```
 PUT YOUR ANSWER HERE
 ```
-
+1. No
 
 ----------------------------------
 
@@ -88,7 +90,7 @@ _Choices_:
 ```
 PUT YOUR ANSWER HERE
 ```
-
+2. No
 
 ----------------------------------
 
@@ -114,7 +116,7 @@ _Choices_:
 ```
 PUT YOUR ANSWER HERE
 ```
-
+1. The `ReactDOM.render` method generates a virtual DOM node containing whatever content the `Kangaroos` component returns, and appends that to the element with an ID of `root`. Then, React compares the virtual DOM to the regular DOM and updates on the webpage only the elements that have changed.
 
 
 -----------------------------------
@@ -129,6 +131,7 @@ _Choices_:
 ```
 PUT YOUR ANSWER HERE
 ```
+2. False
 
 
 ----------------------------------
@@ -145,7 +148,7 @@ _Choices_:
 ```
 PUT YOUR ANSWER HERE
 ```
-
+4. All of the above
 
 -----------------------------------
 
@@ -184,6 +187,7 @@ _Choices_:
 PUT YOUR ANSWER HERE
 ```
 
+1. The `Store` component call needs to end with `/>`, not just `>`
 
 
 ----------------------------------
@@ -201,6 +205,7 @@ _Choices_:
 ```
 PUT YOUR ANSWER HERE
 ```
+3. `create-react-app jungle_maze`
 
 
 ----------------------------------
@@ -237,6 +242,7 @@ _Choices_:
 ```
 PUT YOUR ANSWER HERE
 ```
+1. Yes
 
 
 ----------------------------------
@@ -256,3 +262,4 @@ Choices:
 ```
 PUT YOUR ANSWER HERE
 ```
+2. At the top of the component class; you only need it if you are changing any initial configurations for that class.
