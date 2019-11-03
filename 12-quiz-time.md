@@ -27,7 +27,7 @@ _Choices_:
 PUT YOUR ANSWER HERE
 ```
 
-
+Milkshake.js
 -----------------------------------
 
 _Prompt_:  A component is being passed a prop named `flavor`. What JSX would the component return in its `render` method to display the prop in a paragraph?
@@ -43,7 +43,7 @@ _Choices_:
 PUT YOUR ANSWER HERE
 ```
 
-
+1. `<p>My favorite ice cream is {this.props.flavor}!</p>`
 -----------------------------------
 
 _Prompt_:  Is this a valid Component declaration?
@@ -67,7 +67,7 @@ _Choices_:
 ```
 PUT YOUR ANSWER HERE
 ```
-
+no
 
 ----------------------------------
 
@@ -88,7 +88,7 @@ _Choices_:
 ```
 PUT YOUR ANSWER HERE
 ```
-
+no
 
 ----------------------------------
 
@@ -114,7 +114,7 @@ _Choices_:
 ```
 PUT YOUR ANSWER HERE
 ```
-
+1?
 
 
 -----------------------------------
@@ -129,7 +129,7 @@ _Choices_:
 ```
 PUT YOUR ANSWER HERE
 ```
-
+false
 
 ----------------------------------
 
@@ -145,7 +145,7 @@ _Choices_:
 ```
 PUT YOUR ANSWER HERE
 ```
-
+4?
 
 -----------------------------------
 
@@ -183,7 +183,7 @@ _Choices_:
 ```
 PUT YOUR ANSWER HERE
 ```
-
+1 
 
 
 ----------------------------------
@@ -202,6 +202,7 @@ _Choices_:
 PUT YOUR ANSWER HERE
 ```
 
+3
 
 ----------------------------------
 
@@ -238,7 +239,7 @@ _Choices_:
 PUT YOUR ANSWER HERE
 ```
 
-
+yes
 ----------------------------------
 
 _Prompt_: Where does `constructor()` go, and when do you need it?
@@ -256,3 +257,4 @@ Choices:
 ```
 PUT YOUR ANSWER HERE
 ```
+2
